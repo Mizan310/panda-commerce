@@ -288,5 +288,26 @@ h1 {
     font-size: 22px;
     margin-bottom: 12px;
 }
+/* Contact */
+.contact-us-parent {
+    background: rgb(255, 242, 241);
+    text-align: center;
+    padding: 146px 256px;
+    margin: 70px auto;
+    margin-bottom: 70px;
+    border-radius: 15px;
+}
+.contact-input-button-parent {
+    display: flex;
+    justify-content: center;
+}
+.contact-input-button-parent input {
+    border: none;
+    padding: 20px 150px;
+}
+.contact-input-button-parent .panda-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 
+}
 
