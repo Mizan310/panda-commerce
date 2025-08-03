@@ -1,0 +1,239 @@
+/* Common CSS */
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Custom css */
+/* panda button  */
+.panda-btn {
+    border-radius: 6px;
+    /* Linear */
+    background: linear-gradient(180.00deg,
+            rgb(255, 88, 155) -0.006%,
+            rgb(255, 19, 111) 99.994%);
+    padding: 14px 20px;
+    border: none;
+    font-weight: 500;
+    color: white;
+}
+
+/* Nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    /* background-color: #f8f9fa; */
+}
+
+.search-parent {
+    position: relative;
+    /* font-size: 20px; */
+
+}
+
+.search-parent input {
+    border: none;
+    border-radius: 66px;
+    padding: 15px 30px;
+    width: 508.94px;
+    height: 48px;
+    background-color: rgb(241, 241, 241);
+}
+
+.search-parent i {
+    position: absolute;
+    top: 17px;
+    /* left: 0; */
+    right: 15px;
+    /* bottom: 0; */
+    font-size: 20px;
+    color: #BABABA
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    /* text-decoration: none; */
+
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+    font-size: 16pxs;
+}
+
+h1 {
+    border: 2px solid black;
+    display: inline;
+}
+
+/* Banner */
+
+.banner {
+    background-color: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    /* text-align: center; */
+    padding: 28px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.banner h2 {
+    color: rgb(31, 31, 31);
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.banner p {
+    color: #4e4e4e;
+    max-width: 505px;
+}
+
+/* it is a inline block element */
+.banner-price {
+    color: #FF136F;
+    font-size: 50px;
+    height: 62px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+
+}
+
+.banner img {
+    max-width: 500px;
+    height: 378px;
+}
+
+/* category */
+/* .categories {
+} */
+ .categories {
+    margin-bottom: 40px;
+ }
+.categories-title {
+    margin: 64px 0;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.categories-card-container {
+    display: flex;
+    gap: 26px;
+    /* justify-content: space-between; */
+}
+
+.cards-Category {
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* padding: 15px 60px; */
+    gap: 76px;
+    flex: 1;
+}
+
+.cards-Category:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: black 0px 0px 10px;
+}
+
+.cards-Category h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.cards-Category h3:hover {
+    color: green;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.cards-Category img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.cards-Category:nth-child(1) {
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+}
+
+.cards-Category:nth-child(2) {
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
+}
+
+.cards-Category:nth-child(3) {
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
+}
+
+/* info */
+/* .info-card {
+     display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+} */
+/* Shoes Section */
+
+.shoes-section {
+    background: rgb(244, 244, 244);
+    padding: 50px 0;
+}
+
+.shoe-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.shoe-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.shoe-card img {
+    width: 336px;
+    height: 202px;
+}
+
+.card-price {
+    display: block;
+    font-weight: 600px;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.panda-btn-2 {
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    border: none;
+    font-weight: 500;
+    color: white;
+}
